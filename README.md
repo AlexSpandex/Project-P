@@ -1,4 +1,4 @@
-# Project P 🎮
+# Shadows of the Mushroom Kingdom 🎮
 
 This document includes Scripts/Components, GameObjects, Scenes 📝
 

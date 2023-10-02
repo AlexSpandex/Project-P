@@ -102,7 +102,7 @@ This document includes Scripts/Components, GameObjects, Scenes 📝
 
 ### Scenes
 
-1. **Level1Scene**
+1. **Level1-1Scene**
 
    - *Description*: The first level of the game.
    - *GameObjects*:
@@ -110,7 +110,7 @@ This document includes Scripts/Components, GameObjects, Scenes 📝
      - Pipes: Obstacles to jump over
      - TransitionTrigger: Trigger for transitioning to the next level.
 
-2. **Level2Scene**
+2. **Level1-2Scene**
 
    - *Description*: The second level of the game.
    - *GameObjects*:

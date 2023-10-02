@@ -3,7 +3,6 @@
 This document includes Scripts/Components, GameObjects, Scenes
 This document includes Scripts/Components, GameObjects, Scenes 📝
 
-### Scripts/Components
 ### Scripts/Components 🧩
 
 1. **PlayerController**

@@ -56,6 +56,54 @@ This document includes Scripts/Components, GameObjects, Scenes
     - The BoxCollider2D ensures that the brick block has a physical presence and can be interacted with.
     - The SpriteRenderer provides a visual representation, making the block appear as a brick in the game.
 
+#### Hard Block
+
+- *Components*:
+  - BoxCollider2D: Defines the physical boundaries of the hard block.
+  - SpriteRenderer: Renders the block's appearance with a hard block texture.
+  
+  - *Functionality*:
+    - The BoxCollider2D ensures that the hard block has a physical presence and can be interacted with.
+    - The SpriteRenderer provides a visual representation, making the block appear as a hard block in the game.
+
+### Cloud 
+
+- *Components*:
+  - SpriteRenderer: Renders the block's appearance with a cloud texture.
+
+### Mystery Block
+
+- *Components*:
+  - SpriteRenderer: Renders the block's appearance with a mystery texture.
+  - BoxCollider2D: Defines the physical boundaries of the mystery block.
+
+ ### Mario-Style Pipe
+
+- *Components*:
+  - SpriteRenderer: Renders the pipe's appearance with a green pipe texture.
+  - BoxCollider2D: Defines the physical boundaries of the mario pipe.
+
+### Mario-Style Flag
+
+- *Components*:
+  - SpriteRenderer: Renders the pipe's appearance with a flag texture.
+  - BoxCollider2D: Defines the physical boundaries of the mario flag.
+
+### Bush 
+
+- *Components*:
+- SpriteRenderer: Renders the block's appearance with a bush texture.
+
+### Bush 
+
+- *Components*:
+  - SpriteRenderer: Renders the block's appearance with a bush texture.
+
+### Hill 
+
+- *Components*:
+  - SpriteRenderer: Renders the block's appearance with a hill texture.
+
 ### Scenes
 
 1. **Level1Scene**

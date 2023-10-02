@@ -116,9 +116,6 @@ This document includes Scripts/Components, GameObjects, Scenes 📝
    - *GameObjects*:
      - Player: The player character controlled by the player.
 
-### Acknowledgments
-
-I would like to extend my sincere gratitude to [Zigurous](https://www.youtube.com/watch?v=GCkq6XqyJZg&list=PLqlFiJjSZ2x1mrMpSQgYdRm8PyWRTg6He&index=1&ab_channel=Zigurous) for their excellent YouTube tutorial series.
 ### Acknowledgments 🙌
 
 I would like to extend my sincere gratitude to [Zigurous](https://www.youtube.com/watch?v=GCkq6XqyJZg&list=PLqlFiJjSZ2x1mrMpSQgYdRm8PyWRTg6He&index=1&ab_channel=Zigurous) for their excellent YouTube tutorial

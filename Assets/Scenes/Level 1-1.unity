@@ -3102,6 +3102,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6202988980338329502, guid: 5ef726a7087374d62a7f89fa2ff52082, type: 3}
+      propertyPath: m_Size.x
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202988980338329502, guid: 5ef726a7087374d62a7f89fa2ff52082, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202988980338329502, guid: 5ef726a7087374d62a7f89fa2ff52082, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202988980338329502, guid: 5ef726a7087374d62a7f89fa2ff52082, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6773479523160584522, guid: 5ef726a7087374d62a7f89fa2ff52082, type: 3}
       propertyPath: m_Size.x
       value: 68
@@ -5909,6 +5925,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle
       objectReference: {fileID: 0}
+    - target: {fileID: 4741854724346315615, guid: bddf8a53c72884e828247cf641c55493, type: 3}
+      propertyPath: m_TagString
+      value: NextLevel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7380,10 +7400,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3070518423841565125, guid: 0740461312117460b83b998ba6af8bab, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 5604988493490233737, guid: 0740461312117460b83b998ba6af8bab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -7424,17 +7440,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8550095044186307974, guid: 0740461312117460b83b998ba6af8bab, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 9006375529124596211, guid: 0740461312117460b83b998ba6af8bab, type: 3}
       propertyPath: m_Name
       value: Mario
-      objectReference: {fileID: 0}
-    - target: {fileID: 9006375529124596211, guid: 0740461312117460b83b998ba6af8bab, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

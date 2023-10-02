@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NewBehaviourScript : MonoBehaviour
 {   
@@ -70,6 +71,14 @@ public class NewBehaviourScript : MonoBehaviour
         Vector2 rightEdge = camera.ScreenToWorldPoint(new Vector2(Screen.width, Screen.height));
         position.x = Mathf.Clamp(position.x, leftEdge.x + 0.5f, rightEdge.x - 0.5f);
         rigidbody.MovePosition(position);
+    }  
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "NextLevel")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 
 }

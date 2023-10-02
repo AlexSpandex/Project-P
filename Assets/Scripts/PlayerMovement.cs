@@ -78,6 +78,9 @@ public class NewBehaviourScript : MonoBehaviour
         if (collision.tag == "NextLevel")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        } else if (collision.tag == "PreviousLevel")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
     }
 

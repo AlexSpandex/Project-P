@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Player : MonoBehaviour
 {   
     private new Camera camera;
     private new Rigidbody2D rigidbody; 
@@ -16,6 +16,8 @@ public class NewBehaviourScript : MonoBehaviour
 
     public bool grounded {get; private set;}
     public bool jumping {get; private set;}
+
+    public int level =  1;
 
     private void Awake()
     {
@@ -82,6 +84,25 @@ public class NewBehaviourScript : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
+    }
+
+    public void SavePlayer() 
+    {
+        SaveSystem.SavePlayer(this);
+    }
+
+    public void LoadPlayer() 
+    {
+        PlayerData data = SaveSystem.LoadPlayer();
+
+        level = data.level;
+
+        Vector3 position;
+
+        position.x = data.position[0];
+        position.y = data.position[1];
+        position.z = data.position[2];
+        transform.position = position;
     }
 
 }

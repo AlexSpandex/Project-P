@@ -42,6 +42,18 @@ public class Player : MonoBehaviour
     {
         inputAxis = Input.GetAxis("Horizontal"); 
         velocity.x = Mathf.MoveTowards(velocity.x, inputAxis * moveSpeed, moveSpeed * Time.deltaTime);
+
+        if(rigidbody.Raycast(Vector2.right * velocity.x)) {
+            velocity.x = 0f;
+        }
+
+        if(velocity.x > 0f)
+        {
+            transform.eulerAngles = Vector3.zero;
+        } else if(velocity.x < 0f)
+        {
+            transform.eulerAngles = new Vector3(0f, 180f, 0f);
+        }
     }
 
     private void GroundedMovement()
@@ -105,4 +117,13 @@ public class Player : MonoBehaviour
         transform.position = position;
     }
 
+    private void OnCollisionEnter2D(Collision2D collision) 
+    {
+        if (collision.gameObject.layer != LayerMask.NameToLayer("PowerUp")) 
+        {
+            if (transform.DotTest(collision.transform, Vector2.up)) {
+                velocity.y = 0f;
+            }
+        }
+    }
 }

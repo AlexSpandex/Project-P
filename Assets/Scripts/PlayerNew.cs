@@ -15,6 +15,7 @@ public class PlayerNew : MonoBehaviour
     {
         deathAnimation = GetComponent<DeathAnimation>();
     }
+    
     public void Hit()
     {
         if (big) {

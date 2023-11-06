@@ -352,8 +352,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f7b682d5c36438a8505e5bac6e4304, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smallRenderer: {fileID: 3630556233286597887}
-  bigRenderer: {fileID: 540970133761790945}
+  smallRenderer: {fileID: 0}
+  bigRenderer: {fileID: 0}
 --- !u!114 &1269155217953483481
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,6 +1,26 @@
 # Shadows of the Mushroom Kingdom 🎮
 
-This document includes Scripts/Components, GameObjects, Scenes
+## What's New? 🤔
+
+#### Saving and Loading 📝
+   - Player could pause Game to Save anywhere in 1 scene and will be loaded in the exact spot they saved at from the Pause Menu
+#### Sound 🔊
+   - Mario Music plays as you move through the first and second level
+#### Settings ⚙️
+   - In the Main Menu, there's an options page that's empty, but has a back button
+   - In the Pause Menu, there's a volume page (settings techinally) to adjust the volume of the music
+#### Main Menu, Gameplay Scene(s), Pausing, Scene Transitions 🎩 
+   - Main menu is the first scene loaded into
+   - Gameplay Scenes are Level 1-1 and Level 1-2
+   - Pause Scene is included in Scenes Level 1-1 and Level 1-2 through Canvas
+   - Scene Transition happens currently only in Main Menu to Level 1-1 and techinally Level 1-2, but need to glitch to get there
+#### A more complicated scope of gameplay features than Assignment 1
+   - Mario is able to jump on Goombas and flatten them
+   - Mario could get activated in a death scene now when interacting with Goombas
+#### Some form of emergent gameplay or progression is provided
+   - Goombas are in the game walking and could kill mario if interacted with from side to side
+   - Level 1-1 could lead to Level 1-2 if player could get passed over Flag Pole somehow
+
 This document includes Scripts/Components, GameObjects, Scenes 📝
 
 ### Scripts/Components 🧩

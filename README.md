@@ -2,6 +2,8 @@
 
 ## What's New? 🤔
 
+#### Link to play game 👻: https://alexspandex.itch.io/project-p
+
 #### Saving and Loading 📝
    - Player could pause Game to Save anywhere in 1 scene and will be loaded in the exact spot they saved at from the Pause Menu
 #### Sound 🔊

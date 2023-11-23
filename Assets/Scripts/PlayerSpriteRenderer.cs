@@ -16,14 +16,15 @@ public class PlayerSpriteRenderer : MonoBehaviour
         movement = GetComponentInParent<Player>();
     }
 
-    private void OneEnable()
+    private void OnEnable()
     {
         spriteRenderer.enabled = true;
     }
 
-    private void OneDisable()
+    private void OnDisable()
     {
         spriteRenderer.enabled = false;
+        run.enabled = false;
     }
 
     private void LateUpdate()

@@ -59,6 +59,8 @@ public class PlayerNew : MonoBehaviour
 
         capsuleCollider.size = new Vector2(1f, 1f);
         capsuleCollider.offset = new Vector2(0f, 0f);
+
+        StartCoroutine(ScaleAnimation());
     }
 
     private IEnumerator ScaleAnimation() 

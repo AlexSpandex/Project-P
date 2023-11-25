@@ -11881,6 +11881,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1554268050284077303, guid: 0740461312117460b83b998ba6af8bab, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5604988493490233737, guid: 0740461312117460b83b998ba6af8bab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -11929,6 +11933,10 @@ PrefabInstance:
       propertyPath: smallRenderer
       value: 
       objectReference: {fileID: 193974788}
+    - target: {fileID: 8984578136431000615, guid: 0740461312117460b83b998ba6af8bab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9006375529124596211, guid: 0740461312117460b83b998ba6af8bab, type: 3}
       propertyPath: m_Name
       value: Mario

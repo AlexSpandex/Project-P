@@ -10906,6 +10906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlagPole
       objectReference: {fileID: 0}
+    - target: {fileID: 7900055089188331582, guid: 2844a6073a1f34575af0062234cf9f88, type: 3}
+      propertyPath: castle
+      value: 
+      objectReference: {fileID: 363437504}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

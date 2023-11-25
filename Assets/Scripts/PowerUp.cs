@@ -33,6 +33,7 @@ public class PowerUp : MonoBehaviour
                 player.GetComponent<PlayerNew>().Grow();
                 break;
             case Type.Starpower:
+                player.GetComponent<PlayerNew>().Starpower();
                 break;
         }
         Destroy(gameObject);

@@ -9,8 +9,10 @@ public class Goomba : MonoBehaviour
         PlayerNew player = collision.gameObject.GetComponent<PlayerNew>();
         
         if (collision.gameObject.CompareTag("Player"))
-        {
-            if (collision.transform.DotTest(transform, Vector2.down))
+        {   
+            if (player.starpower) {
+                Hit();
+            } else if (collision.transform.DotTest(transform, Vector2.down))
             {
                 Flatten();
             } else {

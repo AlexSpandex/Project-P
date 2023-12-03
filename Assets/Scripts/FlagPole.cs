@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using TMPro;
 
 public class FlagPole : MonoBehaviour
 {   
@@ -9,6 +10,8 @@ public class FlagPole : MonoBehaviour
     public float speed = 6f;
     public int nextWorld = 1;
     public int nextStage = 1;
+
+    public TextMeshProUGUI winText;
 
    private void OnTriggerEnter2D(Collider2D other) 
    {
@@ -38,7 +41,13 @@ public class FlagPole : MonoBehaviour
     private IEnumerator MoveTo(Transform subject, Vector3 destination)
     {
         while(Vector3.Distance(subject.position , destination) > 0.125f)
-        {
+        {   
+            if (winText != null)
+            {
+                winText.text = "Win";
+                winText.gameObject.SetActive(true);
+            }
+
             subject.position = Vector3.MoveTowards(subject.position, destination, speed * Time.deltaTime);
             yield return null;
         }

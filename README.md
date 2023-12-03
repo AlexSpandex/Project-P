@@ -22,22 +22,10 @@ Welcome to the Super Mario Unity Game! This game brings the classic Mario experi
 - **Added Loosing Feedback**
   - A loss condition has been implemented, and players receive feedback upon losing.
 
-## Interesting Decision and Gameplay Features
+## Interesting Decision
 
-- **Scene now loads from Main Menu**
-  - Players can navigate between the Main Menu and the gameplay scene, providing a seamless experience.
-
-- **Working on finishing pipe**
+- **Mario goes through pipe 🪈**
   - The game introduces pipes, hinting at potential level progression and hidden areas.
-
-- **Flag Pole functions now ⛳️**
-  - A classic Mario flagpole has been implemented, offering players a decisive moment at the end of a level.
-
-- **Star Powerup is working now ⭐️**
-  - The star powerup provides players with a unique ability, adding an interesting decision to the gameplay.
-
-- **Mario Changes Colors with Star power ⭐️**
-  - Visual feedback is provided as Mario changes colors when under the effect of the star powerup.
 
 ## Components
 
@@ -60,7 +48,7 @@ The game utilizes at least 12 components, including scripts and scriptable objec
 
 ## Main Menu and Gameplay
 
-- **Added All Powerups, functions still need implementing**
+- **Added All Powerups**
   - The Main Menu showcases all powerups, indicating a variety of features players can expect during gameplay.
 
 - **Fixed death bug**
@@ -81,6 +69,12 @@ The game utilizes at least 12 components, including scripts and scriptable objec
 
 - **Magic Mushroom is now pops in 🍄**
   - The appearance of the magic mushroom adds an element of surprise and progression to the game.
+ 
+- **Star Powerup is working now ⭐️**
+  - The star powerup provides players with a unique ability, adding an interesting decision to the gameplay.
+
+- **Mario Changes Colors with Star power ⭐️**
+  - Visual feedback is provided as Mario changes colors when under the effect of the star powerup.
 
 This document includes Scripts/Components, GameObjects, Scenes 📝
 

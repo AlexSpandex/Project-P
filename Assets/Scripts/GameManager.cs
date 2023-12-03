@@ -52,7 +52,10 @@ public class GameManager : MonoBehaviour
    }
 
    public void NextLevel()
-   {
+   {    
+        if (world == 0) {
+            LoadLevel(world + 1, 1);
+        }
         if (world == 1 && stage == 10) {
             LoadLevel(world + 1, 1);
         }

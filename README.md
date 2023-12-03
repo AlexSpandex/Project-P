@@ -4,24 +4,87 @@
 
 #### Link to play game 👻: https://alexspandex.itch.io/project-p
 
-#### Saving and Loading 📝
-   - Player could pause Game to Save anywhere in 1 scene and will be loaded in the exact spot they saved at from the Pause Menu
-#### Sound 🔊
-   - Mario Music plays as you move through the first and second level
-#### Settings ⚙️
-   - In the Main Menu, there's an options page that's empty, but has a back button
-   - In the Pause Menu, there's a volume page (settings techinally) to adjust the volume of the music
-#### Main Menu, Gameplay Scene(s), Pausing, Scene Transitions 🎩 
-   - Main menu is the first scene loaded into
-   - Gameplay Scenes are Level 1-1 and Level 1-2
-   - Pause Scene is included in Scenes Level 1-1 and Level 1-2 through Canvas
-   - Scene Transition happens currently only in Main Menu to Level 1-1 and techinally Level 1-2, but need to glitch to get there
-#### A more complicated scope of gameplay features than Assignment 1
-   - Mario is able to jump on Goombas and flatten them
-   - Mario could get activated in a death scene now when interacting with Goombas
-#### Some form of emergent gameplay or progression is provided
-   - Goombas are in the game walking and could kill mario if interacted with from side to side
-   - Level 1-1 could lead to Level 1-2 if player could get passed over Flag Pole somehow
+# Super Mario Unity Game
+
+Welcome to the Super Mario Unity Game! This game brings the classic Mario experience to life with added features and improvements. Below, you'll find details about the game's features and mechanics based on the commit messages.
+
+## Instructions
+
+- **Changed position of instructions**
+  - The game provides on-screen instructions to guide players on how to play.
+
+- **Hid Music Option in Main Menu for now**
+  - The music option in the Main Menu is currently hidden, possibly for future updates or improvements.
+
+## Win and Loss Conditions
+
+- **Win Feedback Added 🆒**
+  - A win condition has been implemented, and players receive feedback upon winning.
+
+- **Added Loosing Feedback**
+  - A loss condition has been implemented, and players receive feedback upon losing.
+
+## Interesting Decision and Gameplay Features
+
+- **Scene now loads from Main Menu**
+  - Players can navigate between the Main Menu and the gameplay scene, providing a seamless experience.
+
+- **Working on finishing pipe**
+  - The game introduces pipes, hinting at potential level progression and hidden areas.
+
+- **Flag Pole functions now ⛳️**
+  - A classic Mario flagpole has been implemented, offering players a decisive moment at the end of a level.
+
+- **Star Powerup is working now ⭐️**
+  - The star powerup provides players with a unique ability, adding an interesting decision to the gameplay.
+
+- **Mario Changes Colors with Star power ⭐️**
+  - Visual feedback is provided as Mario changes colors when under the effect of the star powerup.
+
+## Components
+
+The game utilizes at least 12 components, including scripts and scriptable objects, ensuring a diverse and engaging experience.
+
+## Saving and Loading
+
+- **Loading System works even after quitting game 😎**
+  - The game features a robust saving and loading system, allowing players to continue their progress even after quitting.
+
+## Sound
+
+- **Added instructions to Play Game on Screen**
+  - The game includes sound elements, such as instructions, contributing to the overall player experience.
+
+## Settings
+
+- **Fixed Level to Level bug**
+  - Settings adjustments, possibly related to level transitions, have been fixed.
+
+## Main Menu and Gameplay
+
+- **Added All Powerups, functions still need implementing**
+  - The Main Menu showcases all powerups, indicating a variety of features players can expect during gameplay.
+
+- **Fixed death bug**
+  - A death animation bug has been fixed, enhancing the overall stability of the game.
+
+- **Death animation works and koopa added**
+  - The death animation works seamlessly, accompanied by the addition of a Koopa enemy for added challenge.
+
+## Additional Features
+
+- **Made Font more visible and added coins underground**
+  - Visual enhancements have been made, making the font more visible, and coins have been placed underground for added exploration.
+
+## Emergent Gameplay and Progression
+
+- **Finally fixed death bug**
+  - The fixed death bug contributes to a smoother and more enjoyable gameplay experience.
+
+- **Magic Mushroom is now pops in 🍄**
+  - The appearance of the magic mushroom adds an element of surprise and progression to the game.
+
+These features create an engaging and dynamic Super Mario Unity Game experience, offering players a mix of classic Mario elements and exciting new mechanics. Enjoy playing!
 
 This document includes Scripts/Components, GameObjects, Scenes 📝
 

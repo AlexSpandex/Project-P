@@ -36,4 +36,14 @@ public static class SaveSystem
         }
 
     }
+
+     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+    private static void OnApplicationQuit()
+    {
+        // Save the player data when the application quits
+        if (GameManager.Instance != null && GameManager.Instance.Player != null)
+        {
+            SavePlayer(GameManager.Instance.Player);
+        }
+    }
 }

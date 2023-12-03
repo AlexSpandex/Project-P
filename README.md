@@ -1,12 +1,10 @@
 # Shadows of the Mushroom Kingdom 🎮
 
+Welcome to the Super Mario Unity Game! This game brings the classic Mario experience to life with added features and improvements. Below, you'll find details about the game's features and mechanics based on the commit messages.
+
 ## What's New? 🤔
 
 #### Link to play game 👻: https://alexspandex.itch.io/project-p
-
-# Super Mario Unity Game
-
-Welcome to the Super Mario Unity Game! This game brings the classic Mario experience to life with added features and improvements. Below, you'll find details about the game's features and mechanics based on the commit messages.
 
 ## Instructions
 
@@ -83,8 +81,6 @@ The game utilizes at least 12 components, including scripts and scriptable objec
 
 - **Magic Mushroom is now pops in 🍄**
   - The appearance of the magic mushroom adds an element of surprise and progression to the game.
-
-These features create an engaging and dynamic Super Mario Unity Game experience, offering players a mix of classic Mario elements and exciting new mechanics. Enjoy playing!
 
 This document includes Scripts/Components, GameObjects, Scenes 📝
 

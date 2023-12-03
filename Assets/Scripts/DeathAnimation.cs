@@ -1,10 +1,14 @@
 using System.Collections;
 using UnityEngine;
+using TMPro;
+
 
 public class DeathAnimation : MonoBehaviour
 {
     public SpriteRenderer spriteRenderer;
     public Sprite deadSprite;
+    public TextMeshProUGUI gameOverText; 
+
 
     public void Reset()
     {
@@ -69,6 +73,13 @@ public class DeathAnimation : MonoBehaviour
             velocity.y += gravity * Time.deltaTime;
             elapsed += Time.deltaTime;
             yield return null;
+
+            if (gameOverText != null)
+            {
+                gameOverText.text = "Game Over";
+                gameOverText.gameObject.SetActive(true);
+            }
         }
+
     }
 }
